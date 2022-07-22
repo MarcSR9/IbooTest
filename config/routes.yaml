@@ -1,0 +1,25 @@
+index:
+    path: /
+    controller: App\Controller\ProductController::index
+
+add:
+    path: /add
+    controller: App\Controller\ProductController::add
+
+getProduct:
+    path: /getProduct
+    controller: App\Controller\ProductController::getProduct
+
+getAllProducts:
+    path: /getAllProducts
+    controller: App\Controller\ProductController::getAllProducts
+
+update:
+    path: /update
+    controller: App\Controller\ProductController::update
+
+delete:
+    path: /delete
+    controller: App\Controller\ProductController::delete
+
+
